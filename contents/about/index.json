@@ -1,15 +1,4 @@
 {
   "page-title": "About - William Youmans",
-  "title": "About",
-  "portrait": "/images/portrait.jpg",
-  "gravatar_url": "http://www.gravatar.com/avatar/78f629467a182fffdca5a327045fd362.png?size=128",
-  "elsewhere": [{
-    "url": "http://twitter.com/klanoma",
-    "title": "Twitter",
-    "desc": "Lifestream"
-  }, {
-    "url": "http://github.com/klanoma",
-    "title": "GitHub",
-    "desc": "Open Source Stuff"
-  }]
+  "title": "About"
 }
