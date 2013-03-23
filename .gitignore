@@ -1,2 +1,15 @@
-node_modules/
-*.DS_Store
+# Mac Ignores
+:2e*
+._*
+*~
+.AppleDouble*
+.DS_*
+-.save
+.com.apple.timemachine*
+
+# NPM ignores
+/node_modules
+npm-debug.log
+
+# Compiled assets
+public
