@@ -1,9 +1,9 @@
---- 
-title: Let's Start! 
+---
+title: Let's Start!
 published: true
 tags:
-- Punch 
-- Blog 
+- Punch
+- Blog
 - Life
 ---
 
@@ -18,24 +18,24 @@ At the top of this file, you will find a YAML front matter block (similar to [Je
 You can set any blog specific settings under the section `blog` in the `config.json`. Default blog settings can be found [here](https://github.com/laktek/punch-blog-content-handler). Apart from the default settings, there are two custom settngs for this project, which define the number of posts (`homepage_posts`) and paragraphs (`teaser_length`) to show in homepage. Here are the default `blog` section from `config.json`.
 
 ```javascript
-	"blog": {
-		"posts_dir": "posts",
-		"post_format": "markdown",	
-		"post_url": "/{year}/{month}/{date}/{title}",
-		"teaser_length": 2,
-		"homepage_posts": 10,
+  "blog": {
+    "posts_dir": "posts",
+    "post_format": "markdown",
+    "post_url": "/{year}/{month}/{date}/{title}",
+    "teaser_length": 2,
+    "homepage_posts": 10,
 
-		"archive_urls": {
-			"all": "/archive",
-			"year": "/{year}",
-			"year_month": "/{year}/{month}",
-			"year_month_date": "/{year}/{month}/{date}",
-			"tag": "/tag/{tag}"
-		}
-	}
+    "archive_urls": {
+      "all": "/archive",
+      "year": "/{year}",
+      "year_month": "/{year}/{month}",
+      "year_month_date": "/{year}/{month}/{date}",
+      "tag": "/tag/{tag}"
+    }
+  }
 ```
 
-Punch-blog uses [Prism.js](http://prismjs.com/) for automatic syntax highlighting. There are several other nifty features like that on Punch-blog. Here's a full list: 
+Punch-blog uses [Prism.js](http://prismjs.com/) for automatic syntax highlighting. There are several other nifty features like that on Punch-blog. Here's a full list:
 
 * Preview posts, as you write them.
 * Easily publish to Amazon S3.
@@ -50,7 +50,7 @@ Punch-blog uses [Prism.js](http://prismjs.com/) for automatic syntax highlightin
 * Client-side code highlighting with Prism.js
 * Published/draft states.
 * Automatically minifies and bundles JavaScript/CSS.
-* RSS feed 
+* RSS feed
 * Sitemap.xml
 
 Also, you can use any other features available in Punch.
@@ -60,7 +60,7 @@ Also, you can use any other features available in Punch.
 
 This is so sexy and awesome right? Yes, just like the Gangnam style:
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/9bZkp7q19f0" frameborder="0" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="http://www.youtube.com/embed/9bZkp7q19f0" frameborder="0" allowfullscreen></iframe>
 
 
 Happy Blogging!

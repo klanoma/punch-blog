@@ -1,12 +1,12 @@
 punch := ./node_modules/.bin/punch
 
 run:
-	@$(punch) s
+  @$(punch) s
 
 publish:
-	@$(punch) p
+  @$(punch) p
 
 generate:
-	@$(punch) g --blank
+  @$(punch) g --blank
 
 .PHONY: run publish generate

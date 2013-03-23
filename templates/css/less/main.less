@@ -7,7 +7,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 ============================================================ */
 
-// 1. ROOT 					==============================
+// 1. ROOT           ==============================
 
 // CSS reset
 @import "reset.less";
@@ -19,17 +19,17 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 // Site wide styles (html, body)
 @import "site.less";
 
-// 2. TYPOGRAPHY 			==============================
+// 2. TYPOGRAPHY       ==============================
 
 // Block level (h1, p) and text-level (em, strong) type
 @import "typography.less";
 
-// 3. COLOUR 				==============================
+// 3. COLOUR         ==============================
 
 // Colour interaction semantics
 @import "colour.less";
 
-// 4. TEXTURE 				==============================
+// 4. TEXTURE         ==============================
 
 // Alerts, badges, boxes and gradients
 @import "texture.less";
@@ -40,7 +40,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 // Prism code highlighting (optional)
 @import "prism.less";
 
-// 5. ELEMENTS 				==============================
+// 5. ELEMENTS         ==============================
 
 // Figures, images and other elements
 @import "elements.less";
@@ -54,18 +54,18 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 // Tables
 @import "tables.less";
 
-// 6. LAYOUT 			==============================
+// 6. LAYOUT       ==============================
 
 // Page level layout styles (banner, navigation, content, contentinfo)
 @import "page.less";
 
-//  7. VENDOR-SPECIFIC 		==============================
-//  8. MODERNIZR 			==============================
+//  7. VENDOR-SPECIFIC     ==============================
+//  8. MODERNIZR       ==============================
 
 // @import "modernizr.less";
 
-//  9. TEMPLATE SPECIFICS 	==============================
-//  10. MEDIA QUERIES 		==============================
+//  9. TEMPLATE SPECIFICS   ==============================
+//  10. MEDIA QUERIES     ==============================
 
 @media print {
 @import "print.less";
@@ -98,16 +98,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 // 2x
 @media
-only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5) {
 @import "2x.less"; }
-
-//  11. UPSTARTS 			==============================
-
-// Modules and panels
-@import "upstarts/320andup-modules/upstart.less";
-@import "upstarts/320andup-panels/upstart.less";
-
-// Layout option using display:table for navigation positioning
-// @import "upstarts/320andup-display-table/upstart.less";
