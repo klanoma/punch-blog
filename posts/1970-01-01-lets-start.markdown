@@ -11,7 +11,7 @@ Thanks for trying out Punch blog. You start writing editing this post itself. Ju
 
 Before we go any further, here's cute picture of a cat to cheer you up :)
 
-![cat](/img/cat.jpg)
+![cat](/images/cat.jpg)
 
 At the top of this file, you will find a YAML front matter block (similar to [Jekyll](https://github.com/mojombo/jekyll)). You can define any variable you want to use in templates. Punch will look for the following variables when generating the site - `title`, `published` and `tags`.
 
@@ -57,10 +57,5 @@ Also, you can use any other features available in Punch.
 
 * Manage other pages with Punch's default content handler.
 * Extend the behavior by writing your own helpers.
-
-This is so sexy and awesome right? Yes, just like the Gangnam style:
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/9bZkp7q19f0" frameborder="0" allowfullscreen></iframe>
-
 
 Happy Blogging!
