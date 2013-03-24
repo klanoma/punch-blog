@@ -7,6 +7,7 @@
     "punch-current-page-helper": ">= 0.0.1",
     "punch-thirdparty-snippets-helper": ">= 0.0.1",
     "punch-sitemap-generator": ">= 0.0.3",
+    "punch-engine-jade": ">= 0.0.2",
     "underscore": ">= 1.4.2"
   }
 }

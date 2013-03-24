@@ -4,7 +4,7 @@
   "output_dir": "public",
 
   "server": {
-    "port": 3000
+    "port": 9999
   },
 
   "bundles": {
