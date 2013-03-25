@@ -47,7 +47,6 @@ var tag_helpers = {
 
 };
 
-
 module.exports = {
 
   directAccess: function() {
