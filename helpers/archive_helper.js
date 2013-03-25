@@ -1,9 +1,8 @@
-var _ = require("underscore");
-var helper_utils = require("punch").Utils.Helper;
-var blog_content_handler = require("punch-blog-content-handler");
-
-var all_posts = [];
-var last_modified = null;
+var _ = require("underscore")
+  , helper_utils = require("punch").Utils.Helper
+  , blog_content_handler = require("punch-blog-content-handler")
+  , all_posts = []
+  , last_modified = null;
 
 // TODO: This code is duplicated from punch-blog-content-handler.
 // Consider moving it to its own helper.

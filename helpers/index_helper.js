@@ -1,13 +1,11 @@
-var _ = require("underscore");
-var path = require("path");
-
-var helper_utils = require("punch").Utils.Helper;
-var blog_content_handler = require("punch-blog-content-handler");
-
-var homepage_posts = 10;
-var teaser_length = 2;
-var recent_posts = [];
-var last_modified = null;
+var _ = require("underscore")
+  , path = require("path")
+  , helper_utils = require("punch").Utils.Helper
+  , blog_content_handler = require("punch-blog-content-handler")
+  , homepage_posts = 10
+  , teaser_length = 2
+  , recent_posts = []
+  , last_modified = null;
 
 var fetch_content = function(callback) {
   recent_posts = [];

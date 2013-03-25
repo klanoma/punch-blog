@@ -81,6 +81,5 @@
     "generator_hooks": {
       "sitemap_generator_hook": "punch-sitemap-generator"
     }
-
   }
 }

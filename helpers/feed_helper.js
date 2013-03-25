@@ -1,11 +1,9 @@
-var _ = require("underscore");
-var path = require("path");
-
-var helper_utils = require("punch").Utils.Helper;
-var blog_content_handler = require("punch-blog-content-handler");
-
-var all_posts = [];
-var last_modified;
+var _ = require("underscore")
+  , path = require("path")
+  , helper_utils = require("punch").Utils.Helper
+  , blog_content_handler = require("punch-blog-content-handler")
+  , all_posts = []
+  , last_modified;
 
 var fetch_content = function(callback) {
   var all_post_permalinks = [];
