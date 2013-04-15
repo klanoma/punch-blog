@@ -1,5 +1,5 @@
 ---
-title: Part 1: Interactive Javascript map of Canada with Raphaël
+title: Interactive Javascript map of Canada with Raphaël
 published: true
 tags:
 - Programming
@@ -8,7 +8,7 @@ tags:
 - Tutorial
 ---
 
-![Part 1: Interactive Javascript map of Canada with Raphaël](/images/part-1-interactive-javascript-map-of-canada-with-raphael.jpg)
+![Interactive Javascript map of Canada with Raphaël](/images/part-1-interactive-javascript-map-of-canada-with-raphael.jpg)
 
 It seems like there is a plethora of examples of interactive maps of the United States, but the internet is, rather unsurprisingly, lacking in the area of maps of our great white neighbors to the north. So here is an example of how I created an interactive map of Canada using a handy little Javascript library called [Raphaël](http://raphaeljs.com/).
 
@@ -33,6 +33,6 @@ Now, you have completed the most difficult part. Next, include the Raphaël libr
   <div id="paper"></div>
 ```
 
-Stay tuned for [Part 2: Adding tool tips to the javascript interactive map of Canada](#)
+Stay tuned for Part 2: [Adding tool tips to the javascript interactive map of Canada](#)
 
 [See the full demo with the code.](http://demos.williamyoumans.com/canada-interactive-map.php)
