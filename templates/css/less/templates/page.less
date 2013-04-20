@@ -17,11 +17,18 @@ nav[role=main_nav] {
       vertical-align: middle;
       padding: 0.5em;
       font-size: 1em;
+
       a {
-      color: @textcolor;
-      &:hover { color: @linkcolor;
-      text-decoration: none;  }
-      &.current { color: @linkcolor; }
+        color: @textcolor;
+
+        &:hover {
+          color: @linkcolor;
+          text-decoration: none;
+        }
+
+        &.current {
+          color: @linkcolor;
+        }
       }
     }
   }
@@ -41,34 +48,63 @@ article.hentry {
 
   .entry-content {
     margin: 1em 0;
+
     p {
       line-height: 1.6;
     }
-    a { text-decoration: underline; }
-    img { margin: 0 auto; display: block; }
-    ul { margin-left: 0; padding-left: 2em; }
-    iframe, video { margin: 0 auto; display: block; }
+
+    a {
+      text-decoration: underline;
+    }
+
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+
+    ul {
+      margin-left: 0;
+      padding-left: 2em;
+    }
+
+    iframe, video {
+      margin: 0 auto;
+      display: block;
+    }
   }
 
   aside[role=meta] {
     float: left;
     width: 100%;
-    div[role=tags] { float: left;  }
-    div[role=social_media] { float: right; }
-  }
 
+    div[role=tags] {
+      float: left;
+    }
+
+    div[role=social_media] {
+      float: right;
+    }
+  }
 }
 
 .posts article {
   margin-bottom: 3em;
-  a.more { text-decoration: underline; }
+
+  a.more {
+    text-decoration: underline;
+  }
 }
 
 .posts[role=archive] {
-  ul { padding: 0 0.5em; }
+
+  ul {
+    padding: 0 0.5em;
+  }
+
   li {
     margin: 1em;
     list-style: none;
+
     time {
       color: @lightgrey;
       padding-left: 0.5em;
@@ -80,14 +116,20 @@ article.hentry {
   text-align: center;
   margin-bottom: 2em;
   font-size: 1.6em;
-  a { text-decoration: underline; }
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 .filters {
-  li { .inline-block(); padding-right: 1em; }
-  a.current { text-decoration: underline; }
+
+  li {
+    .inline-block();
+    padding-right: 1em;
+  }
+
+  a.current {
+    text-decoration: underline;
+  }
 }
-
-
-
-
