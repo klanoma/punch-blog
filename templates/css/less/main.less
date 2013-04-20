@@ -1,99 +1,70 @@
-/* ============================================================
-
-320 and Up by Andy Clarke
-Version: 3.0
-URL: http://stuffandnonsense.co.uk/projects/320andup/
-Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
-
-============================================================ */
-
-// 1. ROOT           ==============================
-
 // CSS reset
-@import "reset.less";
+@import "utils/reset";
 
 // Variables and mixins
-@import "variables.less";
-@import "mixins.less";
+@import "utils/variables";
+@import "utils/mixins";
 
 // Site wide styles (html, body)
-@import "site.less";
-
-// 2. TYPOGRAPHY       ==============================
+@import "components/site";
 
 // Block level (h1, p) and text-level (em, strong) type
-@import "typography.less";
-
-// 3. COLOUR         ==============================
+@import "typography";
 
 // Colour interaction semantics
-@import "colour.less";
-
-// 4. TEXTURE         ==============================
+@import "colour";
 
 // Alerts, badges, boxes and gradients
-@import "texture.less";
+@import "texture";
 
 // Font Awesome icon fonts (optional)
-@import "font-awesome.less";
+@import "vendor/font-awesome";
 
 // Prism code highlighting (optional)
-@import "prism.less";
-
-// 5. ELEMENTS         ==============================
+@import "vendor/prism";
 
 // Figures, images and other elements
-@import "elements.less";
+@import "elements";
 
 // Standard form controls
-@import "forms.less";
+@import "forms";
 
 // Button styles (optional)
-@import "buttons.less";
+@import "buttons";
 
 // Tables
-@import "tables.less";
-
-// 6. LAYOUT       ==============================
+@import "tables";
 
 // Page level layout styles (banner, navigation, content, contentinfo)
-@import "page.less";
-
-//  7. VENDOR-SPECIFIC     ==============================
-//  8. MODERNIZR       ==============================
-
-// @import "modernizr.less";
-
-//  9. TEMPLATE SPECIFICS   ==============================
-//  10. MEDIA QUERIES     ==============================
+@import "templates/page";
 
 @media print {
-@import "print.less";
+  @import "media-queries/print";
 }
 
 // 480px
 @media only screen and (min-width: 480px) {
-@import "480.less";
+  @import "media-queries/480";
 }
 
 // 600px
 @media only screen and (min-width: 600px) {
-@import "600.less";
+  @import "media-queries/600";
 }
 
 // 768px
 @media only screen and (min-width: 768px) {
-@import "768.less";
+  @import "media-queries/768";
 }
 
 // 992px
 @media only screen and (min-width: 992px) {
-@import "992.less";
+  @import "media-queries/992";
 }
 
 // 1382px
 @media only screen and (min-width: 1382px) {
-@import "1382.less";
+  @import "media-queries/1382";
 }
 
 // 2x
@@ -101,4 +72,5 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5) {
-@import "2x.less"; }
+  @import "media-queries/2x";
+}

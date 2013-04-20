@@ -15,7 +15,8 @@
 .font-size(@font-size: 16){
 @rem: (@font-size / 10);
 font-size : @font-size * 1px;
-font-size : ~"@{rem}rem"; }
+font-size : ~"@{rem}rem";
+}
 
 .text-overflow() {
 overflow : hidden;
@@ -266,6 +267,15 @@ height : auto;
 width : auto;
 margin : 0;
 overflow: visible; }
+
+.inline-block() {
+  display: inline-block;
+
+  .ie7 & {
+    display: inline;
+    zoom: 1;
+  }
+}
 
 // 6. LAYOUT         ==============================
 
