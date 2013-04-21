@@ -32,7 +32,7 @@
 }
 
 html {
-  background : @bodycolor;
+  background : @bodycolor url('/images/template/header/shade.jpg') repeat-x 0 0;
   font-size : 62.5%;
   -webkit-overflow-scrolling : touch;
   -webkit-tap-highlight-color : lighten(@basecolor, 75%);
@@ -44,7 +44,7 @@ body {
   margin : 2em auto;
   padding : 0;
   width : 90%;
-  background-color : transparent;
+  background-color: transparent;
   font-family : @basefont;
   .font-size();
   line-height : @baselineheight;
@@ -54,24 +54,73 @@ body {
 header {
   text-align: center;
 
-  h1 {
-    font-size: 7rem;
-    text-transform: uppercase;
-    margin-bottom: 0;
+  a.brand {
+    float: none;
+    display: block;
+    font-size: 50px;
+    font-family: 'BanksiaRegular', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 25px;
+    color: @white;
+    width: 410px;
+    margin: 100px auto 54px auto;
+    padding: 15px 0 0 40px;
+    background-image: url(/images/template/header/tea.png);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    text-align: center;
+    text-shadow: 0 0 0 $transparent;
 
-    a {
-      color: @textcolor;
+    &:hover {
+      color: @white;
+      text-decoration: none;
+    }
 
-      &:hover {
+    &:visited {
+      color: @white;
+      text-decoration: none;
+    }
+
+    .subheading {
+      color: @orange;
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+}
+
+// navigation menu
+nav[role=main_nav] {
+  width: 100%;
+  margin: 1em 0 2em 0;
+  text-align: center;
+
+  ul {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid @bordercolor;
+    border-bottom: 1px solid @bordercolor;
+
+    li {
+      .inline-block();
+      vertical-align: middle;
+      padding: 0.5em;
+      font-size: 1em;
+
+      a {
         color: @textcolor;
-        text-decoration: none;
-      }
 
-      &:visited {
-        color: @textcolor;
-        text-decoration: none;
-      }
+        &:hover {
+          color: @linkcolor;
+          text-decoration: none;
+        }
 
+        &.current {
+          color: @linkcolor;
+        }
+      }
     }
   }
 }

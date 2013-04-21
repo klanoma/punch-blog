@@ -9,12 +9,8 @@
 
 /* Variables =================================================== */
 
-// 1. ROOT           ==============================
-
-@bodycolor : @white;
-@textcolor : black;
-
-// 2. TYPOGRAPHY       ==============================
+@bodycolor : #aac8e0;
+@textcolor : #223344;
 
 @basefont              : "Source Sans Pro", Helvetica, Arial, sans-serif;
 @basefontsize          : 16;
@@ -28,15 +24,13 @@
 
 @codefont : 'Source Code Pro', 'Courier',monospace;
 
-// 3. COLOUR         ==============================
-
-@basecolor   : rgb(45,53,62);
-@compcolor   : spin(@basecolor, 180);
+@basecolor   : @bodycolor;
+@orange  : #CC6600;
 @bordercolor : lighten(@basecolor, 60%);
 
 // Links
 
-@linkcolor        : rgb(1,20,104);
+@linkcolor        : @orange;
 @linkcolorhover   : darken(@linkcolor, 10);
 @linkcolorvisited : darken(@linkcolorhover, 10);
 @linkcolorfocus   : darken(@linkcolorvisited, 10);
@@ -58,8 +52,6 @@
 @inverscolor  : rgb(65,65,65);
 @successcolor : rgb(91,183,91);
 @warningcolor : rgb(250,167,50);
-
-// 4. TEXTURE         ==============================
 
 // alert
 
@@ -135,9 +127,5 @@
 @inputfocus       : @basecolor, 40%;
 @placeholdercolor : @lightgrey;
 
-// 6. LAYOUT         ==============================
-
 @baseline    : @baselineheight;
 @gutterwidth : 24px;
-
-//  7. TEMPLATE SPECIFICS   ==============================
