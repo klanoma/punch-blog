@@ -41,7 +41,7 @@ html {
 }
 
 body {
-  margin : 2em auto;
+  margin : 3em auto 2em auto;
   padding : 0;
   width : 90%;
   background-color: transparent;
@@ -53,8 +53,9 @@ body {
 
 header {
   text-align: center;
+  border-top: 1px solid transparent;
 
-  a.brand {
+  .brand {
     float: none;
     display: block;
     font-size: 50px;
@@ -100,8 +101,6 @@ nav[role=main_nav] {
     margin: 0 auto;
     padding: 0;
     list-style: none;
-    border-top: 1px solid @bordercolor;
-    border-bottom: 1px solid @bordercolor;
 
     li {
       .inline-block();
